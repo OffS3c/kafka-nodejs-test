@@ -1,8 +1,17 @@
 # Event-Sourcing Implementation for MicroServices
 
 - An experiment with NodeJS and Apache Kafka
+
+# Jump Start with Docker and Docker Compose
+
 - You can use the docker-compose bundled instead of downloading and installing everything manually ;)
-- docker-compose up --build -d
+
+```bash
+
+#!/bin/bash
+docker-compose up --build -d
+
+```
 
 ## Tech
 
