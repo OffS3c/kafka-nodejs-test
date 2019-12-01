@@ -1,6 +1,7 @@
 # Event-Sourcing Implementation for MicroServices
 
 - An experiment with NodeJS and Apache Kafka
+![Architecture](/event_sourcing.png)
 
 ## Jump Start with Docker and Docker Compose
 
