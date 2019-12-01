@@ -32,6 +32,7 @@ services:
     depends_on:
       - kafka
       - mongodb
+      - zookeeper
   producer:
     image: my-producer:latest
     build:
@@ -45,6 +46,7 @@ services:
     depends_on:
       - kafka
       - mongodb
+      - zookeeper
   mongodb:
     image: mongo:latest
     environment:
