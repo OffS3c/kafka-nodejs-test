@@ -34,7 +34,7 @@ kafka-server-start.sh config/server.properties
 ```bash
 
 #!/bin/bash
-cd node-kafka-producer/
+cd producer/
 npm i
 node server.js
 
@@ -45,7 +45,7 @@ node server.js
 ```bash
 
 #!/bin/bash
-cd node-kafka-consumer/
+cd consumer/
 npm i
 node server.js
 
