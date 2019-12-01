@@ -18,8 +18,7 @@ try {
    */
   const Producer = kafka.Producer;
   const client = new kafka.KafkaClient({
-    kafkaHost:'zookeeper:2181',
-    connectTimeout: 5000,
+    kafkaHost: 'kafka:9092',
   });
   const producer = new Producer(client);
 

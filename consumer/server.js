@@ -17,8 +17,7 @@ try {
   console.log("kafka consumer is booting up");
   const Consumer = kafka.Consumer;
   const client = new kafka.KafkaClient({
-    kafkaHost:'zookeeper:2181',
-    connectTimeout: 5000,
+    kafkaHost: 'kafka:9092',
   });
   
   let consumer = new Consumer(
