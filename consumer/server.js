@@ -16,7 +16,11 @@ app.use(bodyParser.urlencoded({
 try {
   console.log("kafka consumer is booting up");
   const Consumer = kafka.Consumer;
-  const client = new kafka.KafkaClient('zookeeper:2181');
+  const client = new kafka.KafkaClient({
+    kafkaHost:'zookeeper:2181',
+    connectTimeout: 5000,
+  });
+  
   let consumer = new Consumer(
     client,
     [{
