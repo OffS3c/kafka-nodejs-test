@@ -4,7 +4,7 @@
 
 # Jump Start with Docker and Docker Compose
 
-- You can use the docker-compose bundled instead of downloading and installing everything manually ;)
+- You can use the docker-compose bundled instead of downloading and installing everything manually 😉
 
 ```bash
 
