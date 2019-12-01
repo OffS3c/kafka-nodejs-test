@@ -17,7 +17,7 @@ try {
    * Kafka Producer Configuration
    */
   const Producer = kafka.Producer;
-  const client = new kafka.KafkaClient('kafka:2181');
+  const client = new kafka.KafkaClient('zookeeper:2181');
   const producer = new Producer(client);
 
   const kafka_topic = 'feed-service';
