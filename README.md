@@ -2,7 +2,7 @@
 
 - An experiment with NodeJS and Apache Kafka
 
-# Jump Start with Docker and Docker Compose
+## Jump Start with Docker and Docker Compose
 
 - You can use the docker-compose bundled instead of downloading and installing everything manually 😉
 
